@@ -46,7 +46,7 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('http://tb.test.woza.work/model_tb_1/model.json');
-	$("#selected-image").attr("src", "http://tb.test.woza.work/assets/tb.jpg")
+	$("#selected-image").attr("src", "http://parth-patel12.github.io/assets/tb.jpg")
 	
 	
 	
